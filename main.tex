@@ -1,12 +1,24 @@
-\documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+\documentclass[a4paper]{article}
+\usepackage[lithuanian]{babel} % LT kalbos support
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{secdot}
+\sectiondot{subsection}
+\usepackage{indentfirst}
+\usepackage{csquotes}
+\usepackage[style=authoryear-ibid,backend=biber]{biblatex}
+\bibliography{ref.bib}
 
 \title{IBM Z vs. OpenRISC}
 \author{Lukas Užomeckas 1gr. II pogr.}
-\date{December 2024}
+\date{Gruodis, 2024}
 
 \begin{document}
 
 \maketitle
 
+\section{Įvadas}
+Šioje ataskaitoje apžvelgsime dvi populiarias naujojo tūkstantmečio pradžios architektūras - IBM Z ir OpenRISC. Šios architektūros buvo sukurtos siekiant skirtingų tikslų: IBM Z orientuota į patikimumą ir efektyvumą didelėse įmonių sistemose, tuo tarpu OpenRISC - į atvirumo ir lankstumo principus. Palyginę šias architektūras, galėsime įvertinti jų stipriąsias bei silpnąsias puses ir reikšmę šiandienos technologijų aplinkoje.
+
+\printbibliography
 \end{document}
